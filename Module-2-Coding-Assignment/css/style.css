@@ -96,5 +96,15 @@ section>div{
     }
 }
 
+/*mobile view(width less than 768px)*/
+@media (max-width:767px){
+    body{
+        width:95%;
+    }
+    section{
+        width:95%;
+        margin-bottom:5px;
+    }
+}
 
 
