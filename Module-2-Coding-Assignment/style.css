@@ -1,6 +1,58 @@
+body {
+    background: #ccc;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .headline{
     height: 200px;
     text-align: center;
     padding:60xp;
     margin-top:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+section{
+    background-color: #fff;
+    border: 2px #777 solid;
+    margin-bottom: 19px;
+}
+
+#html>header {
+    padding:10px 40px;
+    clear:both;
+    background-color: lightpink;
+    border-left: 2px #777 solid;
+    border-bottom:2px #777 solid;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+#css>header {
+    padding:10px 40px;
+    clear:both;
+    background-color:paleturquoise;
+    border-left: 2px #777 solid;
+    border-bottom:2px #777 solid;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+#javascript>header {
+    padding:10px 40px;
+    clear:both;
+    background-color:lightblue;
+    border-left: 2px #777 solid;
+    border-bottom:2px #777 solid;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+section>div{
+    clear: right;
+    padding:10px;
 }
